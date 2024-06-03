@@ -8,11 +8,11 @@
     <section class="skills mt-5">
         <h2>Skills</h2>
         <ul class="list-group">
-            <li class="list-group-item">HTML/CSS</li>
-            <li class="list-group-item">JavaScript</li>
-            <li class="list-group-item">PHP</li>
-            <li class="list-group-item">CodeIgniter</li>
-            <li class="list-group-item">MySQL</li>
+            <li class="list-group-item text-black">HTML/CSS</li>
+            <li class="list-group-item text-black">JavaScript</li>
+            <li class="list-group-item text-black">PHP</li>
+            <li class="list-group-item text-black">CodeIgniter</li>
+            <li class="list-group-item text-black">MySQL</li>
         </ul>
     </section>
 </div>
