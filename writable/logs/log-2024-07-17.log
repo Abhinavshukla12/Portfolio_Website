@@ -1,0 +1,14 @@
+CRITICAL - 2024-07-17 11:44:39 --> ErrorException: Undefined variable $recentSales
+[Method: GET, Route: project/home]
+in APPPATH\Views\dashboard\index.php on line 113.
+ 1 APPPATH\Views\dashboard\index.php(113): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $recentSales', 'C:\\xampp\\htdocs\\Portfolio_Website\\app\\Views\\dashboard\\index.php', 113)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\Portfolio_Website\\app\\Views\\dashboard\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 5 APPPATH\Controllers\DashboardController.php(11): view('dashboard/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DashboardController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
